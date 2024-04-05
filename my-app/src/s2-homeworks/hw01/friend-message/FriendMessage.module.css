@@ -1,31 +1,39 @@
 .friendMessage {
-
+  width: 250px;
+  border: 5px solid rgb(40, 159, 214);
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .friendImageAndText {
-
+  width: 200px;
+  margin-left: 40px;
+  display: flex;
 }
 
 .friendImageAndText img {
-
+  width: 100px;
+  border-radius: 10px;
 }
 
 .friendText {
-
+  color: rgba(26, 187, 228, 0.548);
 }
 
 .friendText:after {
-
+  color: yellow;
 }
 
 .friendName {
-
+  color: rgba(3, 28, 80, 0.548);
 }
 
 .friendMessageText {
-
+  padding-top: 15px;
+  color: rgba(22, 169, 206, 0.753);
 }
 
 .friendTime {
-
+  padding-left: 5px;
+  color: rgb(220, 167, 233);
 }
