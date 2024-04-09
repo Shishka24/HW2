@@ -22,7 +22,7 @@ function Affair({ affair, deleteAffairCallback }: AffairPropsType) {
     <div id={"hw2-affair-" + affair._id} className={affairClass}>
       <div id={"hw2-name-" + affair._id} className={nameClass}>
         {/*создаёт студент*/}
-
+        {affair.name}
         {/**/}
       </div>
       <div id={"hw2-priority-" + affair._id} hidden>
